@@ -1,7 +1,7 @@
 import React from "react";
 import { UserProps } from "@/interfaces";
 
-type UserCardProps = Pick<
+type UserProps = Pick<
   UserProps ,
   | "id"
   | "name"
