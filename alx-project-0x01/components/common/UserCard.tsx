@@ -2,7 +2,7 @@ import React from "react";
 import { UserProps } from "@/interfaces";
 
 type UserCardProps = Pick<
-  UserProps> ,
+  UserProps ,
   | "id"
   | "name"
   | "username"
@@ -13,7 +13,7 @@ type UserCardProps = Pick<
   | "company"
 >;
 
-const UserCard: React.FC<UserCardProps> = ({
+const UserCard: React.FC<UserProps> = ({
   name,
   username,
   email,
