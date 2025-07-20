@@ -1,3 +1,4 @@
+import { UserProps } from "@/interfaces";
 import React, { useState } from "react";
 import UserCard from "@/components/common/UserCard";
 import UserModal from "@/components/common/UserModal";
