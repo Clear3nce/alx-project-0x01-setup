@@ -2,7 +2,7 @@ import React from "react";
 import { UserProps } from "@/interfaces";
 
 type UserCardProps = Pick<
-  UserProps,
+  UserProps> ,
   | "id"
   | "name"
   | "username"
