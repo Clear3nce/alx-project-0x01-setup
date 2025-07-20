@@ -1,3 +1,4 @@
+import { PostProps } from "@/interfaces";
 import React, { useState } from "react";
 import PostCard from "@/components/common/PostCard";
 import PostModal from "@/components/common/PostModal";
